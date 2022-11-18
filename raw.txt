@@ -1,0 +1,115 @@
+Global frequency set at 1000000000000 ticks per second
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Aug 26 2022 09:57:53
+gem5 started Nov 18 2022 13:04:05
+gem5 executing on pop-os, pid 22907
+command line: /home/marquezjones/Tools/gem5/build/X86/gem5.opt two_level.py --rp=FIFO --binary=./mat_mult_111.bin
+
+Beginning simulation!
+Matrix A: #rows 60; #cols 12
+Matrix B: #rows 12; #cols 10
+
+Initializing arrays...
+
+******************************************************
+Result Matrix:
+
+4400	3626	2852	2078	1304	530	-244	-1018	-1792	-2566	
+******************************************************
+
+Exiting @ tick 1380349000 because exiting with last active thread context
+Global frequency set at 1000000000000 ticks per second
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Aug 26 2022 09:57:53
+gem5 started Nov 18 2022 13:04:06
+gem5 executing on pop-os, pid 22915
+command line: /home/marquezjones/Tools/gem5/build/X86/gem5.opt two_level.py --rp=LRU --binary=./mat_mult_111.bin
+
+Beginning simulation!
+Matrix A: #rows 60; #cols 12
+Matrix B: #rows 12; #cols 10
+
+Initializing arrays...
+
+******************************************************
+Result Matrix:
+
+4400	3626	2852	2078	1304	530	-244	-1018	-1792	-2566	
+******************************************************
+
+Exiting @ tick 1380186000 because exiting with last active thread context
+Global frequency set at 1000000000000 ticks per second
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Aug 26 2022 09:57:53
+gem5 started Nov 18 2022 13:04:07
+gem5 executing on pop-os, pid 22922
+command line: /home/marquezjones/Tools/gem5/build/X86/gem5.opt two_level.py --rp=MRU --binary=./mat_mult_111.bin
+
+Beginning simulation!
+Matrix A: #rows 60; #cols 12
+Matrix B: #rows 12; #cols 10
+
+Initializing arrays...
+
+******************************************************
+Result Matrix:
+
+4400	3626	2852	2078	1304	530	-244	-1018	-1792	-2566	
+******************************************************
+
+Exiting @ tick 1385802000 because exiting with last active thread context
+Global frequency set at 1000000000000 ticks per second
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Aug 26 2022 09:57:53
+gem5 started Nov 18 2022 13:04:07
+gem5 executing on pop-os, pid 22929
+command line: /home/marquezjones/Tools/gem5/build/X86/gem5.opt two_level.py --rp=LFU --binary=./mat_mult_111.bin
+
+Beginning simulation!
+Matrix A: #rows 60; #cols 12
+Matrix B: #rows 12; #cols 10
+
+Initializing arrays...
+
+******************************************************
+Result Matrix:
+
+4400	3626	2852	2078	1304	530	-244	-1018	-1792	-2566	
+******************************************************
+
+Exiting @ tick 1382098000 because exiting with last active thread context
+Global frequency set at 1000000000000 ticks per second
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Aug 26 2022 09:57:53
+gem5 started Nov 18 2022 13:04:08
+gem5 executing on pop-os, pid 22936
+command line: /home/marquezjones/Tools/gem5/build/X86/gem5.opt two_level.py --rp=NRU --binary=./mat_mult_111.bin
+
+Beginning simulation!
+Matrix A: #rows 60; #cols 12
+Matrix B: #rows 12; #cols 10
+
+Initializing arrays...
+
+******************************************************
+Result Matrix:
+
+4400	3626	2852	2078	1304	530	-244	-1018	-1792	-2566	
+******************************************************
+
+Exiting @ tick 1380186000 because exiting with last active thread context

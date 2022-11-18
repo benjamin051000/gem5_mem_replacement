@@ -1,0 +1,16 @@
+,replacement policy=,LRU,MRU,LFU,NRU
+0,Exit tick #,1380349000,1380186000,1385802000,1382098000
+1,icache.overallHits::total,524619,524629,524367,524549
+2,icache.overallMisses::total,490,480,742,560
+3,icache.overallMissLatency::total,45702000,45519000,51644000,47582000
+4,icache.overallAvgMissLatency::total,93269.387755,94831.250000,69601.078167,84967.857143
+5,icache.overallAccesses::total,525109,525109,525109,525109
+6,icache.overallMissRate::total,0.000933,0.000914,0.001413,0.001066
+7,icache.replacements ,256,246,508,326
+8,dcache.overallHits::total,127817,127817,127817,127817
+9,dcache.overallMisses::total,284,284,284,284
+10,dcache.overallMissLatency::total,29781000,29781000,29796000,29790000
+11,dcache.overallAvgMissLatency::total,104862.676056,104862.676056,104915.492958,104894.366197
+12,dcache.overallAccesses::total,128101,128101,128101,128101
+13,dcache.overallMissRate::total,0.002217,0.002217,0.002217,0.002217
+14,dcache.replacements ,0,0,0,0
