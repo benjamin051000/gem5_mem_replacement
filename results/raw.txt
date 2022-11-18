@@ -4,8 +4,8 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.0.0.2
 gem5 compiled Aug 26 2022 09:57:53
-gem5 started Nov 18 2022 13:04:05
-gem5 executing on pop-os, pid 22907
+gem5 started Nov 18 2022 17:42:31
+gem5 executing on pop-os, pid 46431
 command line: /home/marquezjones/Tools/gem5/build/X86/gem5.opt two_level.py --rp=FIFO --binary=./mat_mult_111.bin
 
 Beginning simulation!
@@ -27,8 +27,8 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.0.0.2
 gem5 compiled Aug 26 2022 09:57:53
-gem5 started Nov 18 2022 13:04:06
-gem5 executing on pop-os, pid 22915
+gem5 started Nov 18 2022 17:42:31
+gem5 executing on pop-os, pid 46437
 command line: /home/marquezjones/Tools/gem5/build/X86/gem5.opt two_level.py --rp=LRU --binary=./mat_mult_111.bin
 
 Beginning simulation!
@@ -50,8 +50,8 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.0.0.2
 gem5 compiled Aug 26 2022 09:57:53
-gem5 started Nov 18 2022 13:04:07
-gem5 executing on pop-os, pid 22922
+gem5 started Nov 18 2022 17:42:32
+gem5 executing on pop-os, pid 46443
 command line: /home/marquezjones/Tools/gem5/build/X86/gem5.opt two_level.py --rp=MRU --binary=./mat_mult_111.bin
 
 Beginning simulation!
@@ -73,8 +73,8 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.0.0.2
 gem5 compiled Aug 26 2022 09:57:53
-gem5 started Nov 18 2022 13:04:07
-gem5 executing on pop-os, pid 22929
+gem5 started Nov 18 2022 17:42:33
+gem5 executing on pop-os, pid 46449
 command line: /home/marquezjones/Tools/gem5/build/X86/gem5.opt two_level.py --rp=LFU --binary=./mat_mult_111.bin
 
 Beginning simulation!
@@ -96,8 +96,8 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.0.0.2
 gem5 compiled Aug 26 2022 09:57:53
-gem5 started Nov 18 2022 13:04:08
-gem5 executing on pop-os, pid 22936
+gem5 started Nov 18 2022 17:42:33
+gem5 executing on pop-os, pid 46455
 command line: /home/marquezjones/Tools/gem5/build/X86/gem5.opt two_level.py --rp=NRU --binary=./mat_mult_111.bin
 
 Beginning simulation!

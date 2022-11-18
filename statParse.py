@@ -1,14 +1,16 @@
 import os 
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 # from caches import *
 
 
 gem5_path = "~/Tools/gem5/build/X86"
-rawout = "raw.txt"
-grepout = "grep.txt"
+results_folder = "results"
+rawout = results_folder+"/raw.txt"
+grepout = results_folder+"/grep.txt"
 stats = "./m5out/stats.txt"
-statsout = "stats.txt"
+statsout = results_folder+"/stats.txt"
 tokens = [
           "Exit tick #",
           "icache.overallHits::total",               # number of overall hits (Count)
@@ -17,7 +19,7 @@ tokens = [
           "icache.overallAvgMissLatency::total",      # average overall miss latency ((Tick/Count))
           "icache.overallAccesses::total",              # number of overall (read+write) accesses (Count)
           "icache.overallMissRate::total" ,            # miss rate for overall accesses (Ratio)
-          "icache.replacements ",                      # number of replacements (Count)
+          "icache.replacements",                      # number of replacements (Count)
 
           "dcache.overallHits::total",               # number of overall hits (Count)
           "dcache.overallMisses::total",             # number of overall misses (Count)
@@ -25,7 +27,7 @@ tokens = [
           "dcache.overallAvgMissLatency::total",      # average overall miss latency ((Tick/Count))
           "dcache.overallAccesses::total",              # number of overall (read+write) accesses (Count)
           "dcache.overallMissRate::total" ,            # miss rate for overall accesses (Ratio)
-          "dcache.replacements "                       # number of replacements (Count)
+          "dcache.replacements",                       # number of replacements (Count)
         ]
 policy_list = ["FIFO","LRU","MRU","LFU","NRU"]
 
@@ -37,6 +39,11 @@ def get_num(token,lines):
             return line.split()[1]
 
     return 0
+    
+try:
+    os.mkdir(results_folder)
+except:
+    pass
 
 #clear file out 
 os.system(f"\"\" > {rawout}")
@@ -62,7 +69,7 @@ with open(grepout,"r") as f:
     for line in lines:
         ticks += [line.split(" ")[3]]
 
-ticks += [int(i) for i in ticks[1:]]
+#ticks += [int(i) for i in ticks[1:]]
 token_dict[tokens[0]] = ticks
 
 # populate dataframe and dump to csv
@@ -71,5 +78,5 @@ df["replacement policy="] = [val[0] for key,val in token_dict.items()]
 for i in range(1,len(policy_list)):
     df[policy_list[i]] = [val[i] for key,val in token_dict.items()]
 
-df.to_csv("stats.csv")
+df.to_csv(results_folder+"/stats.csv")
 
