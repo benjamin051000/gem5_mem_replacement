@@ -29,7 +29,9 @@ tokens = [
           "dcache.overallMissRate::total" ,            # miss rate for overall accesses (Ratio)
           "dcache.replacements",                       # number of replacements (Count)
         ]
-policy_list = ["FIFO","LRU","MRU","LFU","NRU"]
+    
+policy_list = ["FIFO","LRU","MRU","LFU","NRU","RAND"]
+# policy_list = ["RAND"]
 
 token_dict = {key : [key] for key in tokens}
 
@@ -46,13 +48,14 @@ except:
     pass
 
 #clear file out 
-os.system(f"\"\" > {rawout}")
+os.system(f"echo \"\" > {rawout}")
 
 for policy in policy_list:
-    os.system(f'''{gem5_path}/gem5.opt two_level.py \
+    os.system(f'''{gem5_path}/gem5.opt test_bench.py \
            --rp=\'{policy}\' \
-           --binary=\"./mat_mult_111.bin\" \
+           --binary=\"./mat_mult_000.bin\" \
         >> {rawout}''')
+
     os.system(f"rm -f {statsout}")
     os.system(f"mv {stats} {statsout}")
     with open(statsout,"r") as f:
