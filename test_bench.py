@@ -12,9 +12,9 @@ import argparse
 parser = argparse.ArgumentParser(description='A simple system with 2-level cache.')
 parser.add_argument("--binary", default="configs/final_project/mat_mult_000.bin", nargs="?", type=str,
                     help="Path to the binary to execute.")
-parser.add_argument("--l1i_size",default="1kB",
+parser.add_argument("--l1i_size",default="512B",
                     help=f"L1 instruction cache size. Default: 16kB.")
-parser.add_argument("--l1d_size",default="1kB",
+parser.add_argument("--l1d_size",default="512B",
                     help="L1 data cache size. Default: Default: 64kB.")
 parser.add_argument("--l1i_assoc",default=2,
                     help="Default: 2.")

@@ -5,8 +5,8 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.0.0.2
 gem5 compiled Aug 26 2022 09:57:53
-gem5 started Dec  2 2022 07:50:03
-gem5 executing on pop-os, pid 16794
+gem5 started Dec  2 2022 08:04:15
+gem5 executing on pop-os, pid 18512
 command line: /home/marquezjones/Tools/gem5/build/X86/gem5.opt test_bench.py --rp=FIFO --binary=./mat_mult_000.bin
 
 Beginning simulation!
@@ -21,15 +21,15 @@ Result Matrix:
 4400	3626	2852	2078	1304	530	-244	-1018	-1792	-2566	
 ******************************************************
 
-Exiting @ tick 1499012000 because exiting with last active thread context
+Exiting @ tick 1755234000 because exiting with last active thread context
 Global frequency set at 1000000000000 ticks per second
 gem5 Simulator System.  https://www.gem5.org
 gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.0.0.2
 gem5 compiled Aug 26 2022 09:57:53
-gem5 started Dec  2 2022 07:50:04
-gem5 executing on pop-os, pid 16800
+gem5 started Dec  2 2022 08:04:16
+gem5 executing on pop-os, pid 18518
 command line: /home/marquezjones/Tools/gem5/build/X86/gem5.opt test_bench.py --rp=LRU --binary=./mat_mult_000.bin
 
 Beginning simulation!
@@ -44,15 +44,15 @@ Result Matrix:
 4400	3626	2852	2078	1304	530	-244	-1018	-1792	-2566	
 ******************************************************
 
-Exiting @ tick 1494202000 because exiting with last active thread context
+Exiting @ tick 1729870000 because exiting with last active thread context
 Global frequency set at 1000000000000 ticks per second
 gem5 Simulator System.  https://www.gem5.org
 gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.0.0.2
 gem5 compiled Aug 26 2022 09:57:53
-gem5 started Dec  2 2022 07:50:05
-gem5 executing on pop-os, pid 16806
+gem5 started Dec  2 2022 08:04:16
+gem5 executing on pop-os, pid 18524
 command line: /home/marquezjones/Tools/gem5/build/X86/gem5.opt test_bench.py --rp=MRU --binary=./mat_mult_000.bin
 
 Beginning simulation!
@@ -67,15 +67,15 @@ Result Matrix:
 4400	3626	2852	2078	1304	530	-244	-1018	-1792	-2566	
 ******************************************************
 
-Exiting @ tick 1911778000 because exiting with last active thread context
+Exiting @ tick 2452126000 because exiting with last active thread context
 Global frequency set at 1000000000000 ticks per second
 gem5 Simulator System.  https://www.gem5.org
 gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.0.0.2
 gem5 compiled Aug 26 2022 09:57:53
-gem5 started Dec  2 2022 07:50:05
-gem5 executing on pop-os, pid 16812
+gem5 started Dec  2 2022 08:04:17
+gem5 executing on pop-os, pid 18530
 command line: /home/marquezjones/Tools/gem5/build/X86/gem5.opt test_bench.py --rp=LFU --binary=./mat_mult_000.bin
 
 Beginning simulation!
@@ -90,15 +90,15 @@ Result Matrix:
 4400	3626	2852	2078	1304	530	-244	-1018	-1792	-2566	
 ******************************************************
 
-Exiting @ tick 1734358000 because exiting with last active thread context
+Exiting @ tick 2088317000 because exiting with last active thread context
 Global frequency set at 1000000000000 ticks per second
 gem5 Simulator System.  https://www.gem5.org
 gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.0.0.2
 gem5 compiled Aug 26 2022 09:57:53
-gem5 started Dec  2 2022 07:50:06
-gem5 executing on pop-os, pid 16819
+gem5 started Dec  2 2022 08:04:18
+gem5 executing on pop-os, pid 18537
 command line: /home/marquezjones/Tools/gem5/build/X86/gem5.opt test_bench.py --rp=NRU --binary=./mat_mult_000.bin
 
 Beginning simulation!
@@ -113,15 +113,15 @@ Result Matrix:
 4400	3626	2852	2078	1304	530	-244	-1018	-1792	-2566	
 ******************************************************
 
-Exiting @ tick 1496340000 because exiting with last active thread context
+Exiting @ tick 1691497000 because exiting with last active thread context
 Global frequency set at 1000000000000 ticks per second
 gem5 Simulator System.  https://www.gem5.org
 gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.0.0.2
 gem5 compiled Aug 26 2022 09:57:53
-gem5 started Dec  2 2022 07:50:06
-gem5 executing on pop-os, pid 16826
+gem5 started Dec  2 2022 08:04:18
+gem5 executing on pop-os, pid 18543
 command line: /home/marquezjones/Tools/gem5/build/X86/gem5.opt test_bench.py --rp=RAND --binary=./mat_mult_000.bin
 
 Beginning simulation!
@@ -136,4 +136,4 @@ Result Matrix:
 4400	3626	2852	2078	1304	530	-244	-1018	-1792	-2566	
 ******************************************************
 
-Exiting @ tick 819325000 because exiting with last active thread context
+Exiting @ tick 937419000 because exiting with last active thread context
